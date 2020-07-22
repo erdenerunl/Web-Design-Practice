@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.opportunity {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background: rgb(255, 255, 255);
+}
+
+
+
+.checkslist-text {
+    color: #464646;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.card-body li {
+    list-style-type: none;
+    margin: 0.50rem;
+}
+
+.checked {
+    color: yellow;
+}

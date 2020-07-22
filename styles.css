@@ -1,0 +1,155 @@
+#global-container {
+    width: 100%;
+    height: auto;
+    /* background-color: #333333; */
+}
+
+.main {
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 85%;
+    height: 2000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.catcher {
+    width: 100%;
+    height: 100px;
+    /* background-color: blueviolet; */
+
+}
+.dropdown {
+    float: right;
+}
+
+.dropdown #selected {
+    padding: 5px 0.50rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    background: 0 0;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.catcher .stock {
+    cursor: pointer;
+    margin: 0;
+    margin-right: 2rem;
+    margin-top: 0.50rem;
+    float: right;
+}
+.catcher .stock label {
+    display: inline-block;
+    font-weight: 700;
+}
+.catcher span {
+    font-weight: 700;
+}
+
+.btnself {
+    display: inline-block;
+}
+
+.main-section .product-list {
+    margin: 0 20px 20px 0;
+    /* display: flex; */
+    /* width: calc((100% - 60px)/4); */
+    padding: 1rem 1.5rem 1rem;
+    width: 200px;
+    height: auto;
+    /* background-color: chocolate; */
+    position: relative;
+    
+}
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.kapsayici {
+    display: flex;
+    justify-content: flex-start;
+    
+    
+
+}
+.main .aside {
+    width: 25%; 
+    font-size: 0.90rem; 
+    margin-right: 3rem;
+    
+}
+.main .section {
+    margin-top: 5rem;
+}
+
+.section .main-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.product-list {
+    margin: 0 2rem 2rem 0;
+    max-width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #d0d0d0;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    
+}
+.product-list-image img {
+    position: relative;
+    width: 150px;
+    align-items: center;
+    top: 0.25rem;
+}
+
+.product-list-badgebar-antet {
+    
+    border-radius: 5px;
+    padding: 3px 0 2px;;
+    border: 1px solid #b2c1d6;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-align: center;
+    width: 8rem;
+    height: 1.25rem;
+    position: absolute;
+    top: 5px;
+    left: 36px;
+}
+
+.product-list-badgebar-antet span {
+    position: absolute;
+    top: 0;
+    left: 36px;
+}
+
+/* .wrapper-star {
+    
+    
+    
+} */
+
+.rank-star {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    vertical-align: middle;
+    overflow: hidden;
+
+}
+
+
